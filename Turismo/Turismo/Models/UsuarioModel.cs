@@ -85,7 +85,7 @@ namespace Turismo.Models
                 }
                 conexion.Close();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
             }
