@@ -100,6 +100,7 @@
                             <th>Día</th>
                             <th>Título</th>
                             <th>Descripción</th>
+                            <th>Alojamiento</th>
                         </tr>
                     </thead>
                     <tbody id="table-body-itinerario">
@@ -107,6 +108,11 @@
                             <td><input type="text" readonly class="form-control-plaintext" value="1" name="itiDia" style="width:20px" /></td>
                             <td><input type="text" class="form-control form-control-sm" placeholder="Ingrese título para día 1" name="itiTitulo" required /></td>
                             <td><textarea class="form-control form-control-sm" placeholder="* Ejemplo: Actividad 1" name="itiDescripcion" required></textarea></td>
+                            <td>
+                                <select class="form-control">
+                                    <option value="" disabled selected>Seleccione su Alojamiento</option>
+                                </select>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
