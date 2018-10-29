@@ -179,10 +179,15 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Img\ancash.jfif" />
+    <Content Include="Img\ayacucho.jfif" />
+    <Content Include="Img\cajamarca.jfif" />
     <Content Include="Img\cusco.jfif" />
+    <Content Include="Img\huanuco.jfif" />
     <Content Include="Img\slider1.jfif" />
     <Content Include="Img\slider2.jfif" />
     <Content Include="Img\slider3.jfif" />
+    <Content Include="Img\trujillo.jfif" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
